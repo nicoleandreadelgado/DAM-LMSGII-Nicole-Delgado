@@ -1,0 +1,48 @@
+{
+  "enquestes": [
+    {
+      "id": 1,
+      "titol": "Satisfacció d'una cafeteria",
+      "activa": true,
+      "preguntes": [
+        {
+          "ordre": 1,
+          "text": "Com valores el servei?",
+          "tipus": "opcio_multiple",
+          "opcions": [
+            "Molt bo",
+            "Bo",
+            "Dolent"
+          ]
+        },
+        {
+          "ordre": 2,
+          "text": "Què milloraries de la cafeteria?",
+          "tipus": "text_lliure"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titol": "Hàbits d'estudi",
+      "activa": false,
+      "preguntes": [
+        {
+          "ordre": 1,
+          "text": "Quantes hores estudies al dia?",
+          "tipus": "opcio_multiple",
+          "opcions": [
+            "Menys d'una hora",
+            "Entre una i tres hores",
+            "Més de tres hores"
+          ]
+        },
+        {
+          "ordre": 2,
+          "text": "Què fas per concentrar-te millor?",
+          "tipus": "text_lliure"
+        }
+      ]
+    }
+  ]
+}
